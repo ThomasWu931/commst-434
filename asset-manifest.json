@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/commst-434/static/css/main.b367a094.css",
+    "main.js": "/commst-434/static/js/main.263aeca5.js",
+    "index.html": "/commst-434/index.html",
+    "main.b367a094.css.map": "/commst-434/static/css/main.b367a094.css.map",
+    "main.263aeca5.js.map": "/commst-434/static/js/main.263aeca5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b367a094.css",
+    "static/js/main.263aeca5.js"
+  ]
+}
