@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ThomasWu931.github.io",
-  "name": "commst-final-project",
+  "homepage": "https://ThomasWu931.github.io/commst-434",
+  "name": "commst-434",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,6 +15,7 @@
     "framer-motion": "^11.3.19",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.25.1",
     "react-scripts": "5.0.1",
     "react-simple-maps": "^3.0.0",
     "react-tooltip": "^5.27.1",
@@ -22,8 +23,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

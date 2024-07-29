@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import "./styles.css";
 
 import MapChart from "./MapChart";
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
@@ -14,4 +15,7 @@ function App() {
 }
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(
+  <BrowserRouter basename="/commst-434">
+    <App />
+  </BrowserRouter>, rootElement);
