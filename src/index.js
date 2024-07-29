@@ -16,6 +16,6 @@ function App() {
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <BrowserRouter basename="/commst-434">
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <App />
   </BrowserRouter>, rootElement);
